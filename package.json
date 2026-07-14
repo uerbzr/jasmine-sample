@@ -1,0 +1,28 @@
+{
+  "name": "jasmine-sample",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/uerbzr/jasmine-sample#readme",
+  "bugs": {
+    "url": "https://github.com/uerbzr/jasmine-sample/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uerbzr/jasmine-sample.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine --config=spec/support/jasmine.json"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^6.0.0",
+    "@types/node": "^26.1.1",
+    "axios": "^1.18.1",
+    "jasmine": "^6.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  }
+}
